@@ -33,6 +33,7 @@ const renderPoducts = () => {
        </div>
    </div>`;
                     productHTML = productHTML.replaceAll("[PRODUCT.TITLE]", product.title);
+                    productHTML = productHTML.replaceAll("[PRODUCT.PRICE]", product.price);
 
                     productHTML = productHTML.replaceAll("[PRODUCT.CATEGORY_ID]", product.category_id);
                     productHTML = productHTML.replaceAll("[PRODUCT.IMGURL]", product.imgUrl);
